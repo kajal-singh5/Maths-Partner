@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Partner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <h1 class="logo"><a href="#">Math Partner</a></h1>
+            <h1 class="history"><a href="history.html">SAVED SOLUTIONS</a></h1>
+        </div>
+
+        <div class="main">
+            <form class="question" method="GET">
+                <div>
+                    <label for="problem">Problem</label>
+                    <input id="problem" type="text">
+                </div>
+
+                <div>
+                    <label for="category">Select Category</label>
+                    <select name="category" id="category">
+                        <option value="simplify">Simplify</option>
+                        <option value="factor">Factor</option>
+                        <option value="derive">Derive</option>
+                        <option value="integrate">Integrate</option>
+                        <option value="find0s">Find 0's</option>
+                        <option value="findTangent">Find Tangent</option>
+                        <option value="areaUnderCurve">Area Under Curve</option>
+                        <option value="cosine">Cosine</option>
+                        <option value="sine">Sine</option>
+                        <option value="tangent">Tangent</option>
+                        <option value="inverseCosine">Inverse Cosine</option>
+                        <option value="inverseSine">Inverse Sine</option>
+                        <option value="inverseTangent">Inverse Tangent</option>
+                        <option value="absoluteValue">Absolute Value</option>
+                        <option value="logarithm">Logarithm</option>
+                    </select>
+                </div>
+
+                <button type="submit">Search</button>
+            </form>
+
+            <div class="solution">
+                <h3 id="problem_statement_category"></h3>
+                <p id="problem_solution">
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

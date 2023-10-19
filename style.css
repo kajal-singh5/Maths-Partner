@@ -1,0 +1,70 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5em;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+}
+
+.history {
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 1em;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.history a {
+    color: white;
+}
+
+.main {
+    padding-top: 5em;
+    height: 80vh;
+}
+
+.question {
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.solution {
+    background-color: lightgrey;
+    height: 100%;
+    border-radius: 3em;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: lightgrey;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 0.75rem;
+}
+
+.delete {
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid green;
+    border-radius: 1em;
+    width: 100%;
+    padding: 0.25em;
+    cursor: pointer;
+}
